@@ -4,7 +4,6 @@ using TripleDot.Interfaces;
 
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace TripleDot.HomeScreen
