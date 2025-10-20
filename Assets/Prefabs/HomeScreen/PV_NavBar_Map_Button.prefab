@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070109115052492947, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 415
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2070109115052492947, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_SizeDelta.y
@@ -103,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 5193502977032123029, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_Name
       value: PV_NavBar_Map_Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870068232360352454, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: <Identifier>k__BackingField
+      value: Map
       objectReference: {fileID: 0}
     - target: {fileID: 7120818463642563829, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: <Identifier>k__BackingField

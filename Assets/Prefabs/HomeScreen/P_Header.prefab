@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3733501938157298560}
   - component: {fileID: 7773688567294925606}
   - component: {fileID: 2173849494997560539}
+  - component: {fileID: 5976892735657897941}
   m_Layer: 5
   m_Name: P_Header
   m_TagString: Untagged
@@ -54,7 +55,7 @@ MonoBehaviour:
   m_Padding:
     m_Left: 60
     m_Right: 60
-    m_Top: 0
+    m_Top: 260
     m_Bottom: 0
   m_ChildAlignment: 4
   m_Spacing: 0
@@ -79,6 +80,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.ContentSizeFitter
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!114 &5976892735657897941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626790141842916347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76741c2df9e53d74ba51ad770f166591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TripleDot.SafeAreaLayout
+  _padTop: 1
+  _padBottom: 0
+  _padLeft: 1
+  _padRight: 1
 --- !u!1 &2192509118496630008
 GameObject:
   m_ObjectHideFlags: 0
