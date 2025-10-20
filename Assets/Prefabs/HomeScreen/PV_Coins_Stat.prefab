@@ -125,6 +125,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6459600688114943958}
     m_Modifications:
+    - target: {fileID: 5021225758742466642, guid: c2d03e6004e8bae47b15b26ec443e7b7, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6402733758462052673, guid: c2d03e6004e8bae47b15b26ec443e7b7, type: 3}
       propertyPath: m_Name
       value: PV_Add_Button
