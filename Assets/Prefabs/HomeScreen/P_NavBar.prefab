@@ -508,6 +508,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PV_NavBar_Map_Button
       objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: ed7141b5c3c8cf84988e21850b60a3cc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: ed7141b5c3c8cf84988e21850b60a3cc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5726057527660151465, guid: ed7141b5c3c8cf84988e21850b60a3cc, type: 3}
       propertyPath: m_Group
       value: 
@@ -614,6 +622,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PV_NavBar_Shop_Button
       objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: b0c18a77ae68ad745ba564a2eb3df3ca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: b0c18a77ae68ad745ba564a2eb3df3ca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5726057527660151465, guid: b0c18a77ae68ad745ba564a2eb3df3ca, type: 3}
       propertyPath: m_Group
       value: 
@@ -719,6 +735,14 @@ PrefabInstance:
     - target: {fileID: 227283914861311284, guid: 092da50b6c3ee9248b3456121319a446, type: 3}
       propertyPath: m_Name
       value: PV_NavBar_Home_Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 092da50b6c3ee9248b3456121319a446, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 092da50b6c3ee9248b3456121319a446, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5726057527660151465, guid: 092da50b6c3ee9248b3456121319a446, type: 3}
       propertyPath: m_IsOn
@@ -830,6 +854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PV_NavBar_Locked_Button_Right
       objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5726057527660151465, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
       propertyPath: m_Group
       value: 
@@ -939,6 +971,14 @@ PrefabInstance:
     - target: {fileID: 227283914861311284, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
       propertyPath: m_Name
       value: PV_NavBar_Locked_Button_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940318448138442135, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5726057527660151465, guid: 49b84bc4b8f4e894b99e9b33396651fa, type: 3}
       propertyPath: m_Group

@@ -88,6 +88,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2997255459235964532, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 9492180914176
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997255459235964532, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:a03d9a671050c7c4e86627c8e7552955
+      objectReference: {fileID: 0}
     - target: {fileID: 5193502977032123029, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_Name
       value: PV_NavBar_Home_Button
@@ -99,6 +107,14 @@ PrefabInstance:
     - target: {fileID: 7120818463642563829, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: <Identifier>k__BackingField
       value: Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050735743691706934, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050735743691706934, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

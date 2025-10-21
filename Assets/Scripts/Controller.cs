@@ -1,8 +1,10 @@
 using TripleDot.Blur;
+using TripleDot.Components;
 using TripleDot.HomeScreen;
 using TripleDot.Interfaces;
 
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 
 namespace TripleDot
 {
@@ -14,6 +16,8 @@ namespace TripleDot
         [SerializeField] private BlurBehaviour _blurBehaviour;  
         [field: SerializeField] public BottomViewBar BottomViewBar { get; private set; } = null;
 
+        private int _localeIndex = 0;
+        
         [RuntimeInitializeOnLoadMethod]
         private static void Init()
         {
@@ -76,6 +80,19 @@ namespace TripleDot
         public void OnSettingsClicked()
         {
             StartCoroutine(_settingsPopupWindow.Show(_blurBehaviour));
+        }
+        
+        public void CloseSettingsPopup()
+        {
+            StartCoroutine(_settingsPopupWindow.Hide(_blurBehaviour));
+        }
+
+        public void CycleLocale()
+        {
+            ILocalesProvider localesProvider = LocalizationSettings.Instance.GetAvailableLocales();
+            _localeIndex++;
+            _localeIndex %= localesProvider.Locales.Count;
+            LocalizationSettings.Instance.SetSelectedLocale(localesProvider.Locales[_localeIndex]);
         }
     }
 }

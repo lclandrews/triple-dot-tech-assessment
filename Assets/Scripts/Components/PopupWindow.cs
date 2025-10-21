@@ -6,7 +6,7 @@ using TripleDot.Utils;
 
 using UnityEngine;
 
-namespace TripleDot
+namespace TripleDot.Components
 {
     public class PopupWindow : MonoBehaviour, IWindow
     {

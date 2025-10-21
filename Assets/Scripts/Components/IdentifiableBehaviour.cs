@@ -2,7 +2,7 @@ using TripleDot.Interfaces;
 
 using UnityEngine;
 
-namespace TripleDot
+namespace TripleDot.Components
 {
     public class IdentifiableBehaviour : MonoBehaviour, IIdentifiableBehaviour
     {

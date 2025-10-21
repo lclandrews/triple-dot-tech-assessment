@@ -1,9 +1,7 @@
-using System;
-
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace TripleDot
+namespace TripleDot.Components
 {
     [RequireComponent(typeof(RectTransform))]
     public class SafeAreaLayout : MonoBehaviour

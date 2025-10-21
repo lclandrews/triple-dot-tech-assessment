@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1059920943160515613, guid: d661f948e63730d4f9b0dc8c7ec3882e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: dca542133d8cea342a074a2cdb0e97c4, type: 2}
     - target: {fileID: 1138841832357173118, guid: d661f948e63730d4f9b0dc8c7ec3882e, type: 3}
       propertyPath: m_Name
       value: PV_Coins_Stat

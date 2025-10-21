@@ -88,6 +88,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2997255459235964532, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 9300497027072
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997255459235964532, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:a03d9a671050c7c4e86627c8e7552955
+      objectReference: {fileID: 0}
     - target: {fileID: 4001050067924466652, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_SizeDelta.x
       value: 310
@@ -111,6 +119,14 @@ PrefabInstance:
     - target: {fileID: 7120818463642563829, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: <Identifier>k__BackingField
       value: Shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050735743691706934, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9050735743691706934, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9087836813258337273, guid: d06f2f3756456c44891833bd57be37c6, type: 3}
       propertyPath: m_text

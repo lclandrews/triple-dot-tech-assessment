@@ -44,6 +44,14 @@ namespace TripleDot.NavBar
         private void Start()
         {
             ApplySafeArea();
+            if (_toggle.isOn)
+            {
+                _toggle.animationTriggers = _selectedTriggers;
+            }
+            else
+            {
+                _toggle.animationTriggers = _cachedTriggers;
+            }
             _initialized = true;
         }
 
