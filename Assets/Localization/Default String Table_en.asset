@@ -78,6 +78,12 @@ MonoBehaviour:
     m_Localized: Map
     m_Metadata:
       m_Items: []
+  - m_Id: 364532280217600
+    m_Localized: 'Level
+
+      Completed!'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
