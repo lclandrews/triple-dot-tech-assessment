@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace TripleDot.HomeScreen
+namespace TripleDot.Navigation
 {
     public class BottomViewBar : MonoBehaviour 
     {

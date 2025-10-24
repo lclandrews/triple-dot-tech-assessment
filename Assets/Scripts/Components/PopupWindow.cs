@@ -12,9 +12,9 @@ namespace TripleDot.Components
     {
         [SerializeField] private Animator _animator;
         [SerializeField, Tooltip("The animation state name is also use to determine the desired trigger.")] 
-        private string _showAnimationName;
+        private string _showAnimationName = "Show";
         [SerializeField, Tooltip("The animation state name is also use to determine the desired trigger.")]
-        private string _hideAnimationName;
+        private string _hideAnimationName = "Hide";
 
         private int _showTrigger;
         private int _hideTrigger;
@@ -33,6 +33,7 @@ namespace TripleDot.Components
         
         public IEnumerator Show(BlurBehaviour blurBehaviour)
         {
+            gameObject.SetActive(true);
             if (blurBehaviour != null)
             {
                 StartCoroutine(blurBehaviour.Show());                
@@ -49,6 +50,7 @@ namespace TripleDot.Components
             }
             _animator.SetTrigger(_hideTrigger);
             yield return _animator.WaitForAnimation(_hideAnimationName);
+            gameObject.SetActive(false);
         }
     }
 }

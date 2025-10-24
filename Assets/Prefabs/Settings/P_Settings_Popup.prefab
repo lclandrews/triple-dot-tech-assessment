@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2469204176023126004}
-  - component: {fileID: 5853277198188845333}
+  - component: {fileID: 199705748500549837}
   - component: {fileID: 591454511901712659}
   - component: {fileID: 4297247754898897472}
   - component: {fileID: 1451646272695586742}
@@ -268,7 +268,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -120, y: 3280}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5853277198188845333
+--- !u!114 &199705748500549837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -277,9 +277,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3886372896355314879}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1bc0ab550d7aef4a9fd6f870617ee5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f5c79ee0a0f0bb4ba5018fe23748012, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TripleDot.Components.PopupWindow
+  m_EditorClassIdentifier: Assembly-CSharp::TripleDot.Settings.SettingsPopup
   _animator: {fileID: 3144824479052989437}
   _showAnimationName: Show
   _hideAnimationName: Hide

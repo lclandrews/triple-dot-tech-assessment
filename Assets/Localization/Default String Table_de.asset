@@ -82,6 +82,10 @@ MonoBehaviour:
     m_Localized: "Level \nGeschafft!"
     m_Metadata:
       m_Items: []
+  - m_Id: 1226972756856832
+    m_Localized: "Level Abschlie\xDFen"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

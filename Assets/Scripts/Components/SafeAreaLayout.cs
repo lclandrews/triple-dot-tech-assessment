@@ -38,7 +38,7 @@ namespace TripleDot.Components
     
         private void OnRectTransformDimensionsChange()
         {
-            if (_initialized && Screen.safeArea != _lastSafeArea)
+            if (_initialized && UnityEngine.Screen.safeArea != _lastSafeArea)
             {
                 ApplySafeArea();   
             }
@@ -46,15 +46,15 @@ namespace TripleDot.Components
     
         private void ApplySafeArea()
         {
-            Rect safeArea = Screen.safeArea;
+            Rect safeArea = UnityEngine.Screen.safeArea;
             float scaleFactor = _canvasScaler != null ? _canvasScaler.scaleFactor : 1f;
-            float xScale = scaleFactor * (Screen.width / _canvasScaler.referenceResolution.x);
-            float yScale = scaleFactor * (Screen.height / _canvasScaler.referenceResolution.y);
+            float xScale = scaleFactor * (UnityEngine.Screen.width / _canvasScaler.referenceResolution.x);
+            float yScale = scaleFactor * (UnityEngine.Screen.height / _canvasScaler.referenceResolution.y);
             
             float left = safeArea.xMin / xScale;
-            float right = (Screen.width  - safeArea.xMax) / xScale;
+            float right = (UnityEngine.Screen.width  - safeArea.xMax) / xScale;
             float bottom = safeArea.yMin / yScale;
-            float top = (Screen.height - safeArea.yMax) / yScale;
+            float top = (UnityEngine.Screen.height - safeArea.yMax) / yScale;
             
             if (_layoutGroup != null)
             {

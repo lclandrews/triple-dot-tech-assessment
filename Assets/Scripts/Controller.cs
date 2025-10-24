@@ -1,7 +1,11 @@
 using TripleDot.Blur;
-using TripleDot.Components;
-using TripleDot.HomeScreen;
+using TripleDot.Home;
+using TripleDot.Navigation;
 using TripleDot.Interfaces;
+using TripleDot.LevelCompleted;
+using TripleDot.Map;
+using TripleDot.Settings;
+using TripleDot.Shop;
 
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -12,8 +16,19 @@ namespace TripleDot
     {
         public static Controller Instance { get; private set; }
 
-        [SerializeField] private PopupWindow _settingsPopupWindow;
-        [SerializeField] private BlurBehaviour _blurBehaviour;  
+        [Header("Screens")]
+        [SerializeField] private LevelCompletedScreen _levelCompletedScreen;
+        [SerializeField] private HomeScreen _homeScreen;
+        [SerializeField] private MapScreen _mapScreen;
+        [SerializeField] private ShopScreen _shopScreen;
+        
+        [Header("Popups")]
+        [SerializeField] private SettingsPopup _settingsPopupWindow;
+        
+        [Header("Blur")]
+        [SerializeField] private BlurBehaviour _blurBehaviour;
+        
+        [Header("Navigation")]
         [field: SerializeField] public BottomViewBar BottomViewBar { get; private set; } = null;
 
         private int _localeIndex = 0;
@@ -93,6 +108,31 @@ namespace TripleDot
             _localeIndex++;
             _localeIndex %= localesProvider.Locales.Count;
             LocalizationSettings.Instance.SetSelectedLocale(localesProvider.Locales[_localeIndex]);
+        }
+
+        public void OpenLevelCompletedScreen()
+        {
+            StartCoroutine(_levelCompletedScreen.Show(_blurBehaviour));
+        }
+
+        public void CloseLevelCompletedScreen()
+        {
+            StartCoroutine(_levelCompletedScreen.Hide(_blurBehaviour));
+        }
+        
+        public void OpenHomeScreen()
+        {
+            StartCoroutine(_homeScreen.Show(_blurBehaviour));
+        }
+
+        public void OpenMapScreen()
+        {
+            StartCoroutine(_mapScreen.Show(_blurBehaviour));
+        }
+
+        public void OpenShopScreen()
+        {
+            StartCoroutine(_shopScreen.Show(_blurBehaviour));
         }
     }
 }
