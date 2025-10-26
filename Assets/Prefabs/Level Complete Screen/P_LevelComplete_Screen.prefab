@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
+  m_Material: {fileID: -876546973899608171, guid: 888744d7adc407749a7dc3ceb9c08962, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1369,6 +1369,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7300774896928139787, guid: d4f6bb53820c64746bcdb753b1d02359, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8102983370898048481, guid: d4f6bb53820c64746bcdb753b1d02359, type: 3}
       propertyPath: m_Name
       value: PV_Coin_Burst
@@ -1673,6 +1677,10 @@ PrefabInstance:
       value: Sparkles
       objectReference: {fileID: 0}
     - target: {fileID: 6293418623175303822, guid: a55ec6306edaae447a863312e8310470, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6293418623175303822, guid: a55ec6306edaae447a863312e8310470, type: 3}
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
@@ -1694,6 +1702,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1195618142462624885}
     m_Modifications:
+    - target: {fileID: 1594664959200724428, guid: 9bf280c7ac1c34c4f8446dde127b070a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6536016590830681208, guid: 9bf280c7ac1c34c4f8446dde127b070a, type: 3}
       propertyPath: m_Name
       value: Confetti
@@ -1896,6 +1908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P_Sparkle_Burst
       objectReference: {fileID: 0}
+    - target: {fileID: 6293418623175303822, guid: 301f655a37b12544793df899f01b7884, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1993,6 +2009,10 @@ PrefabInstance:
     - target: {fileID: 3300398261056446442, guid: 9b9aeec2d68dcbe4d8b36b907bcbebd2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300774896928139787, guid: 9b9aeec2d68dcbe4d8b36b907bcbebd2, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8102983370898048481, guid: 9b9aeec2d68dcbe4d8b36b907bcbebd2, type: 3}
       propertyPath: m_Name
@@ -2107,6 +2127,10 @@ PrefabInstance:
     - target: {fileID: 3300398261056446442, guid: b331aadf52131ca4cba0270bef05d9eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300774896928139787, guid: b331aadf52131ca4cba0270bef05d9eb, type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8102983370898048481, guid: b331aadf52131ca4cba0270bef05d9eb, type: 3}
       propertyPath: m_Name
